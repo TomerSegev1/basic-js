@@ -43,11 +43,28 @@
 //  console.log(sum)
 
 //exercise8
-for(index = 0; index <= 10000; index++) {
-    if(index % 7 === 0) {
-        console.log(index)
-    }
-    else{
-        null
-    }
+// for(index = 0; index <= 10000; index++) {
+//     if(index % 7 === 0) {
+//         console.log(index)
+//     }
+//     else{
+//         null
+//     }
+// }
+
+// exercise9
+let n1 = 0, n2 = 1, number;
+
+console.log(n1);
+console.log(n2); 
+
+number = n1 + n2;
+
+while (number <= 10000) {
+
+    console.log(number);
+
+    n1 = n2;
+    n2 = number;
+    number = n1 + n2;
 }
