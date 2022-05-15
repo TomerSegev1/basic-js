@@ -53,18 +53,25 @@
 // }
 
 // exercise9
-let n1 = 0, n2 = 1, number;
+// let n1 = 0, n2 = 1, number;
 
-console.log(n1);
-console.log(n2); 
+// console.log(n1);
+// console.log(n2); 
 
-number = n1 + n2;
+// number = n1 + n2;
 
-while (number <= 10000) {
+// while (number <= 10000) {
 
-    console.log(number);
+//     console.log(number);
 
-    n1 = n2;
-    n2 = number;
-    number = n1 + n2;
-}
+//     n1 = n2;
+//     n2 = number;
+//     number = n1 + n2;
+// }
+
+// exercise10
+let num1 = 648; num2 = num1 / 10; num3 = num1 / 100;
+console.log(num1 % 10)
+console.log(Math.trunc(num2 % 10))
+console.log(Math.trunc(num3)) 
+
