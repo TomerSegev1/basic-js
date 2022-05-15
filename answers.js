@@ -70,8 +70,14 @@
 // }
 
 // exercise10
-let num1 = 648; num2 = num1 / 10; num3 = num1 / 100;
-console.log(num1 % 10)
-console.log(Math.trunc(num2 % 10))
-console.log(Math.trunc(num3)) 
+// let num1 = 648; num2 = num1 / 10; num3 = num1 / 100;
+// console.log(num1 % 10)
+// console.log(Math.trunc(num2 % 10))
+// console.log(Math.trunc(num3)) 
 
+// exercise11
+for(index = 1500; index <= 3000; index++) {
+    if(index % 5 === 0|| index % 7 === 0) {
+        console.log(index)
+    }
+}
