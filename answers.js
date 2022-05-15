@@ -36,8 +36,18 @@
 // }
 
 //exercise7
-let sum = 0;
-for(let index = 0; index <= 300; index++) {
-    sum += index
+// let sum = 0;
+// for(let index = 0; index <= 300; index++) {
+//     sum += index
+// }
+//  console.log(sum)
+
+//exercise8
+for(index = 0; index <= 10000; index++) {
+    if(index % 7 === 0) {
+        console.log(index)
+    }
+    else{
+        null
+    }
 }
- console.log(sum)
