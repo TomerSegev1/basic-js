@@ -19,13 +19,18 @@
 // }
 
 // exercise5
-let age = 24
-if (age === 23) {
-    console.log("congratulations")
-}
-else if (age < 23) {
-    console.log("young")
-}
-else {
-    console.log("old")
+// let age = 24
+// if (age === 23) {
+//     console.log("congratulations")
+// }
+// else if (age < 23) {
+//     console.log("young")
+// }
+// else {
+//     console.log("old")
+// }
+
+//exercise6
+for(index = 0; index < 70; index++) {
+    console.log("HELLO")
 }
