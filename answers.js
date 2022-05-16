@@ -76,8 +76,21 @@
 // console.log(Math.trunc(num3)) 
 
 // exercise11
-for(index = 1500; index <= 3000; index++) {
-    if(index % 5 === 0|| index % 7 === 0) {
-        console.log(index)
-    }
+// for(index = 1500; index <= 3000; index++) {
+//     if(index % 5 === 0|| index % 7 === 0) {
+//         console.log(index)
+//     }
+// }
+
+// exercise13
+let num = "*"; 
+for(index = 1; index <= 5; index++) {
+    console.log(num)
+    num += "*" 
+}
+num = num.slice(0, -1)
+for(index = 1; index <= 4; index++) {
+    num = num.slice(0, -1)
+    console.log(num)
+    
 }
