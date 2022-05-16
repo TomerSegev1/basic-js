@@ -70,10 +70,12 @@
 // }
 
 // exercise10
-// let num1 = 648; num2 = num1 / 10; num3 = num1 / 100;
-// console.log(num1 % 10)
-// console.log(Math.trunc(num2 % 10))
-// console.log(Math.trunc(num3)) 
+// let num = 84848;
+// while (num > 1)
+// {
+//     console.log(num % 10);
+//     num = Math.trunc( num / 10 )
+// }
 
 // exercise11
 // for(index = 1500; index <= 3000; index++) {
@@ -82,15 +84,24 @@
 //     }
 // }
 
+// exercise12
+let num = 11111111; sum = 0;
+while (num > 0)
+{
+    sum = sum + (num % 10)
+    num = Math.trunc(num / 10)
+}
+console.log(sum)
+
+
 // exercise13
-let num = "*"; 
-for(index = 1; index <= 5; index++) {
-    console.log(num)
-    num += "*" 
-}
-num = num.slice(0, -1)
-for(index = 1; index <= 4; index++) {
-    num = num.slice(0, -1)
-    console.log(num)
-    
-}
+// let num = "*"; 
+// for(index = 1; index <= 5; index++) {
+//     console.log(num)
+//     num += "*" 
+// }
+// num = num.slice(0, -1)
+// for(index = 1; index <= 4; index++) {
+//     num = num.slice(0, -1)
+//     console.log(num) 
+// }
