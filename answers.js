@@ -85,13 +85,13 @@
 // }
 
 // exercise12
-let num = 11111111; sum = 0;
-while (num > 0)
-{
-    sum = sum + (num % 10)
-    num = Math.trunc(num / 10)
-}
-console.log(sum)
+// let num = 11111111; sum = 0;
+// while (num > 0)
+// {
+//     sum = sum + (num % 10)
+//     num = Math.trunc(num / 10)
+// }
+// console.log(sum)
 
 
 // exercise13
