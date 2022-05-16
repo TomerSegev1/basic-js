@@ -16,18 +16,35 @@
 // console.log(cum)
 
 //exercise3
-let mane = "nnnnnnn"
-let length = mane.length;
-let isGreat = false;
-for (index = 0; index <= length; index++) {
-    if (mane.charAt(index) === "m" || mane.charAt(index) === "i" || mane.charAt(index) === "d" || mane.charAt(index) === "b" || mane.charAt(index) === "a" || mane.charAt(index) === "r") {
-        isGreat = true;
-    }
-}
+// let mane = "nnnnnnn"
+// let length = mane.length;
+// let isGreat = false;
+// for (index = 0; index <= length; index++) {
+//     if (mane.charAt(index) === "m" || mane.charAt(index) === "i" || mane.charAt(index) === "d" || mane.charAt(index) === "b" || mane.charAt(index) === "a" || mane.charAt(index) === "r") {
+//         isGreat = true;
+//     }
+// }
 
-if (isGreat) {
-    console.log("great");
+// if (isGreat) {
+//     console.log("great");
+// }
+// else {
+//     console.log("bad");
+// }
+
+//exercise4
+let num = "18967"
+let length = num.length
+let isGreat = false
+for(index = 0; index <=num.length; index++)
+{
+    if (num.charAt(index) === "6")
+    isGreat = true
 }
-else {
-    console.log("bad");
+if (isGreat) {
+    console.log("great")
+}
+else
+{
+ console.log("bad")   
 }
